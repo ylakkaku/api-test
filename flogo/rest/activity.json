@@ -1,9 +1,9 @@
 {
-  "name": "tibco-rest",
+  "name": "f-rest",
   "type": "flogo:activity",
-  "ref": "https://github.com/fcastill/api-test/flogo/rest",
+  "ref": "github.com/fcastill/api-test/flogo/rest",
   "version": "0.0.1",
-  "title": "Invoke REST Service",
+  "title": "Test complex_object activity",
   "description": "Simple REST Activity",
   "homepage": "https://github.com/TIBCOSoftware/flogo-contrib/tree/master/activity/rest",
   "inputs":[
