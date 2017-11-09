@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "title": "Test complex_object activity",
   "description": "Simple REST Activity",
+  "return": true,
   "homepage": "https://github.com/TIBCOSoftware/flogo-contrib/tree/master/activity/rest",
   "inputs":[
     {
