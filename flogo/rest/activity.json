@@ -1,41 +1,23 @@
 {
-  "name": "f-rest",
+  "name": "y-reply",
   "type": "flogo:activity",
-  "ref": "github.com/fcastill/api-test/flogo/rest",
+  "ref": "github.com/TIBCOSoftware/flogo-contrib/activity/reply",
   "version": "0.0.1",
-  "title": "Test complex_object activity",
-  "description": "Simple REST Activity",
+  "title": "Reply To Trigger",
+  "description": "Simple Reply Activity",
   "return": true,
-  "homepage": "https://github.com/TIBCOSoftware/flogo-contrib/tree/master/activity/rest",
+  "homepage": "https://github.com/TIBCOSoftware/flogo-contrib/tree/master/activity/reply",
   "inputs":[
     {
-      "name": "method",
-      "type": "string",
-      "required": true,
-      "allowed" : ["GET", "POST", "PUT", "PATCH", "DELETE"]
-    },
-    {
-      "name": "uri",
-      "type": "string",
+      "name": "code",
+      "type": "integer",
       "required": true
     },
     {
-      "name": "pathParams",
-      "type": "params"
-    },
-    {
-      "name": "queryParams",
-      "type": "params"
-    },
-    {
-      "name": "content",
-      "type": "complex_object"
+      "name": "data",
+      "type": "any"
     }
   ],
   "outputs": [
-    {
-      "name": "result",
-      "type": "complex_object"
-    }
   ]
 }
